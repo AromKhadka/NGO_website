@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="contentwrapper">
+      <div id="content">
+        <img src="IMAGE/1.jpg" alt="">
+        <p>Prarambha is a not-for-profit organization in Nepal. 
+          Its main aim is to create a strong student community within the country. 
+          It provides a common platform for all Student/Teacher/Other non student enthusiastic.  
+          It promotes research & technology via its outreach, education and research activities.</p>
+      </div>
+       
+      <div id="form-box">
+        <form action="getdata.php" name="f1" method = "POST">
+          <label for="uname"><b>Email</b></label>
+          <input type="text" id="user" placeholder="Email" name="email" required>
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" id="pass" placeholder="Password" name="psw" required>
+          <input type="submit" id="su" value="LOGIN">
+          <!-- <button class="submit"><a>LOGIN</a></button> -->
+                  
+
+        </form>
+        <button type="submit" onclick="acoount.html"><a href="account.html">Creat new account</a></button>
+
+
+          
+
+          <div class="row">
+            <h2 style="text-align:center">Follow Us ON</h2>
+      
+            <div class="col">
+              <a href="https://www.facebook.com/login" class="fb btn">
+                <i class="fa fa-facebook fa-fw"></i> Follow Us On Facebook
+              </a>
+              <a href="https://twitter.com/login" class="twitter btn">
+                <i class="fa fa-twitter fa-fw"></i> Follow Us On Twitter
+              </a>
+            </div>
+          </div>
+      </div>
+    </div>
+  
+<script>
+  var modal = document.getElementById('id01');
+  window.onclick = function(event) 
+  {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+</script>
+</body>
+</html>
